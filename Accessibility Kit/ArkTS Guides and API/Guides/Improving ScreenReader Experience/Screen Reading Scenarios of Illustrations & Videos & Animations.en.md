@@ -4,8 +4,6 @@
 
 As shown in the following figure, an illustration functions as a certain prompt, which should be combined with the corresponding function description so that the function description is read when the focus falls on the illustration or the component that contains the illustration. It is recommended that illustrations and function descriptions be combined and share a single focus for reading. This scenario can be implemented by using the **accessibilityGroup(true)** attribute.
 
-![](images/en-us_image_0000002809024109.png)
-
 ```typescript
 @Entry
 @Component
@@ -51,8 +49,6 @@ Each item in the following list should be grouped and annotated to provide a com
 * Each item in a **List** or **Grid** component should provide all information about the elements contained.
 
 * Reading the combination information about all nested elements of each item in a list is recommended.
-
-  ![](images/en-us_image_0000002779664566.png)
 
   This scenario can be implemented by using the **accessibilityGroup(true)** attribute.
 

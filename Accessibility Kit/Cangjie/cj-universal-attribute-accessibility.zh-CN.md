@@ -1,6 +1,6 @@
 # API 参考
 
-# [无障碍属性](#%E6%97%A0%E9%9A%9C%E7%A2%8D%E5%B1%9E%E6%80%A7)
+# 无障碍属性
 
 组件可以设置相应的无障碍属性和事件来更好地使用无障碍能力。
 
@@ -186,9 +186,9 @@ public func accessibilityVirtualNode(builder: () -> Unit): This
 
 | 参数名     | 类型          | 必填 | 默认值 | 说明                                                                                                                                                                                                                                             |
 |---------|-------------|----|-----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| builder | ()-&gt;Unit | 是  | \-  | 无障碍虚拟子节点，使开发者可以对自绘制组件传入一个自定义UI描述，该UI描述中的组件在后端仅做布局不做显示，辅助应用获取无障碍节点信息时会返回UI描述中的节点信息。使用时结合[@Builder](../../../Dev_Guide/arkui-cj/paradigm/cj-macro-builder.html)和[bind](./cj-ui-framework.html#func-bindcustomview---viewbuilder-customview)方法使用。 |
+| builder | ()-&gt;Unit | 是  | \-  | 无障碍虚拟子节点，使开发者可以对自绘制组件传入一个自定义UI描述，该UI描述中的组件在后端仅做布局不做显示，辅助应用获取无障碍节点信息时会返回UI描述中的节点信息。使用时结合[@Builder](../../Dev_Guide/arkui-cj/paradigm/cj-macro-builder.html)和[bind](./cj-ui-framework.html#func-bindcustomview---viewbuilder-customview)方法使用。 |
 
-## [示例代码](#%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81)
+## 示例代码
 
 ```cangjie
 package ohos_app_cangjie_entry

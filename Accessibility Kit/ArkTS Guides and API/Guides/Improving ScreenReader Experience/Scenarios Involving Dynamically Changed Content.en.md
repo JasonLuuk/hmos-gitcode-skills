@@ -4,8 +4,6 @@
 
 After the important content on the UI changes dynamically, the changed content needs to be read aloud in real time. Specifically, when the content on the UI changes dynamically and it has a necessary prompt/notification/guidance function for the user, the changed content needs to be broadcasted using the proactive broadcast API provided by the Accessibility Kit.
 
-![](images/en-us_image_0000002808984211.png)
-
 Parameters of the proactive broadcast API are described as follows.
 
 **Table1** EventInfo

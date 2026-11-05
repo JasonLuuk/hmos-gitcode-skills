@@ -4,8 +4,6 @@
 
 If multi-dimensional information is displayed in an application, nested groups may be used. If a nested group contains multiple focusable objects, repeated reading of the functions or content of these objects should be avoided. For example, in the weather widget shown below, when both time and location are focused, the time is read aloud. To prevent repeated reading of different focuses from complicating the operation steps and disordering the focus control, the complete description of the same information structure should be marked on the parent component of these child components.
 
-![](images/en-us_image_0000002808984209.png)
-
 ## Development Examples
 
 ```typescript

@@ -4,8 +4,6 @@
 
 For the operation errors (for example, network connection failure) or other warning information, you should use highlighted color to draw the user's attention and provide error messages and improvement methods in real time.
 
-![](images/en-us_image_0000002779824558.png)
-
 ## Development Examples
 
 The following is an example of broadcasting a network disconnection.

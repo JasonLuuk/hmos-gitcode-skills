@@ -4,8 +4,6 @@
 
 As shown in the following figure, the play/pause button has two states. The information annotated to the button should change along with the button state.
 
-![](images/en-us_image_0000002809024111.png)
-
 ```typescript
 import { PromptAction } from "@kit.ArkUI"
 

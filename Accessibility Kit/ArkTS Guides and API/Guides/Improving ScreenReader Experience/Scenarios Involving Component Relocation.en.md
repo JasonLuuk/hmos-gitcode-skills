@@ -8,8 +8,6 @@ To ensure that the information heard by visually impaired users is the same as t
 
 When a user moves up a web page bookmark, the system broadcasts this operation and will announce a specific location where the bookmark is to be placed during the movement. The application can call the proactive broadcast API to automatically broadcast the information.
 
-![](images/en-us_image_0000002779664568.png)
-
 ```typescript
 import accessibility from '@ohos.accessibility';
 

@@ -4,8 +4,6 @@
 
 You must give annotations for any touchable button that is not a **Text** component, including the virtual button area in user-defined components. Otherwise, users may fail to implement corresponding functions. When annotating such components, ensure that the annotation text does not contain strings such as the component type and the prompt like "Open via one-finger double tap." Screen Reader automatically appends the annotation text based on the component type, component status, and enabled status of **Beginner's Guide**.
 
-![](images/en-us_image_0000002779824554.png)
-
 ## Development Examples
 
 In the following code, the annotation information of the **Image** component (actually the play/pause button) is provided by setting **accessibilityText**:

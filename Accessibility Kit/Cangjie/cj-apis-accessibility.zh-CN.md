@@ -1,23 +1,23 @@
 # API 参考
 
-# [ohos.accessibility（辅助功能）](#ohosaccessibility%E8%BE%85%E5%8A%A9%E5%8A%9F%E8%83%BD)
+# ohos.accessibility（辅助功能）
 
 本模块提供辅助功能查询能力，包括获取辅助应用列表、辅助应用启用状态、无障碍字幕配置、发送无障碍事件等。
 
-## [导入模块](#%E5%AF%BC%E5%85%A5%E6%A8%A1%E5%9D%97)
+## 导入模块
 
 ```cangjie
 import kit.AccessibilityKit.*
 ```
 
-## [使用说明](#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+## 使用说明
 
 API示例代码使用说明：
 
 - 若示例代码首行有“// index.cj”注释，表示该示例可在仓颉模板工程的“index.cj”文件中编译运行。
-- 若示例需获取[Context](../AbilityKit/cj-apis-ability.html#class-context)应用上下文，需在仓颉模板工程中的“main\_ability.cj”文件中进行配置。
+- 若示例需获取[Context]应用上下文，需在仓颉模板工程中的“main\_ability.cj”文件中进行配置。
 
-上述示例工程及配置模板详见[仓颉示例代码说明](../../cj-development-intro.html#%E4%BB%93%E9%A2%89%E7%A4%BA%E4%BE%8B%E4%BB%A3%E7%A0%81%E8%AF%B4%E6%98%8E)。
+上述示例工程及配置模板详见[仓颉示例代码说明]。
 
 ## [func getAccessibilityExtensionList(AbilityType, AbilityState)](#func-getaccessibilityextensionlistabilitytype-abilitystate)
 
@@ -183,7 +183,7 @@ public func off(`type`: AccCallBackType): Unit
 
 **异常：**
 
-- [BusinessException](../BasicServicesKit/cj-apis-base.html#class-businessexception)：对应错误码的详细介绍请参见[通用错误码](../../errorcodes/cj-errorcode-universal.html)。
+- [BusinessException]：对应错误码的详细介绍请参见[通用错误码](./cj-errorcode-accessibility.zh-CN.md)。
   
   错误码ID错误信息
   
@@ -208,11 +208,11 @@ public func on(`type`: AccCallBackType, callback: Callback1Argument<Bool>): Unit
 | 参数名      | 类型                                                                                             | 必填 | 默认值 | 说明                   |
 |----------|------------------------------------------------------------------------------------------------|----|-----|----------------------|
 | \`type\` | [AccCallBackType](#enum-acccallbacktype)                                                       | 是  | \-  | 监听的事件名。              |
-| callback | [Callback1Argument](../BasicServicesKit/cj-apis-base.html#class-callback1argument)&lt;Bool&gt; | 是  | \-  | 回调函数，此状态为全局辅助应用启用状态。 |
+| callback | [Callback1Argument]&lt;Bool&gt; | 是  | \-  | 回调函数，此状态为全局辅助应用启用状态。 |
 
 **异常：**
 
-- [BusinessException](../BasicServicesKit/cj-apis-base.html#class-businessexception)：对应错误码的详细介绍请参见[通用错误码](../../errorcodes/cj-errorcode-universal.html)。
+- [BusinessException]：对应错误码的详细介绍请参见[通用错误码](./cj-errorcode-accessibility.zh-CN.md)。
   
   错误码ID错误信息
   
@@ -266,7 +266,7 @@ public func sendAccessibilityEvent(event: EventInfo): Unit
 
 **异常：**
 
-- [BusinessException](../BasicServicesKit/cj-apis-base.html#class-businessexception)：对应错误码的详细介绍请参见[通用错误码](../../errorcodes/cj-errorcode-universal.html)。
+- [BusinessException]：对应错误码的详细介绍请参见[通用错误码](./cj-errorcode-accessibility.zh-CN.md)。
   
   错误码ID错误信息
   
