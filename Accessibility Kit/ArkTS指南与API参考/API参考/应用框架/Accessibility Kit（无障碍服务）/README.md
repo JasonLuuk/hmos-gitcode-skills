@@ -1,6 +1,0 @@
-# Accessibility Kit（无障碍服务）
-
-> phone 12+ | 2in1 13+ | tablet 12+ | wearable 18+
-
-* **[ArkTS API](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/accessibility-arkts)**   
-* **[错误码](https://developer.huawei.com/consumer/cn/doc/harmonyos-references/accessibility-arkts-errcode)**   
